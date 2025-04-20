@@ -159,7 +159,7 @@ else:
             st.pyplot(fig)
         # Display just the maze with no algorithm data
         else:
-            fig = visualization.visualize_maze(
+            fig = visualize_maze(
                 st.session_state.maze, 
                 st.session_state.start_pos, 
                 st.session_state.end_pos
