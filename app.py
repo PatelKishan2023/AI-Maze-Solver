@@ -8,7 +8,6 @@ from matplotlib.animation import FuncAnimation
 # Import algorithm modules
 import maze_generator
 import search_algorithms
-import visualization
 import performance_metrics
 
 # Import algorithm educational content
