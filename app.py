@@ -8,6 +8,7 @@ from matplotlib.animation import FuncAnimation
 # Import algorithm modules
 import maze_generator
 import search_algorithms
+import visualization
 import performance_metrics
 
 # Import algorithm educational content
@@ -159,7 +160,7 @@ else:
             st.pyplot(fig)
         # Display just the maze with no algorithm data
         else:
-            fig = visualize_maze(
+            fig = visualization.visualize_maze(
                 st.session_state.maze, 
                 st.session_state.start_pos, 
                 st.session_state.end_pos
