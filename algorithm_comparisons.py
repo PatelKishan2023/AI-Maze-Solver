@@ -44,55 +44,6 @@ def compare_algorithms(algorithms=None):
             "weighted_edges": "No",
             "difficulty": "Medium"
         },
-        "Jump Search": {
-            "shortest_path": "No",
-            "time_complexity": "O(√n)*",
-            "space_complexity": "O(n)",
-            "weighted_edges": "No",
-            "difficulty": "Medium"
-        },
-        "Interpolation Search": {
-            "shortest_path": "No",
-            "time_complexity": "O(log log n)*",
-            "space_complexity": "O(n)",
-            "weighted_edges": "No",
-            "difficulty": "Hard"
-        },
-        "Exponential Search": {
-            "shortest_path": "No",
-            "time_complexity": "O(log n)*",
-            "space_complexity": "O(n)",
-            "weighted_edges": "No",
-            "difficulty": "Medium"
-        },
-        "Fibonacci Search": {
-            "shortest_path": "No",
-            "time_complexity": "O(log n)*",
-            "space_complexity": "O(n)",
-            "weighted_edges": "No",
-            "difficulty": "Hard"
-        },
-        "Ternary Search": {
-            "shortest_path": "No",
-            "time_complexity": "O(log₃ n)*",
-            "space_complexity": "O(n)",
-            "weighted_edges": "No",
-            "difficulty": "Medium"
-        },
-        "Sublist Search": {
-            "shortest_path": "No",
-            "time_complexity": "O(n+m)*",
-            "space_complexity": "O(n)",
-            "weighted_edges": "No",
-            "difficulty": "Hard"
-        },
-        "Hash Table Lookup": {
-            "shortest_path": "No",
-            "time_complexity": "O(1) lookup",
-            "space_complexity": "O(n)",
-            "weighted_edges": "Yes",
-            "difficulty": "Easy"
-        },
         "DFS": {
             "shortest_path": "No",
             "time_complexity": "O(V+E)",
@@ -121,20 +72,8 @@ def compare_algorithms(algorithms=None):
             "weighted_edges": "Yes",
             "difficulty": "Hard"
         },
-        "Best-First Search": {
-            "shortest_path": "No",
-            "time_complexity": "O(b^d)",
-            "space_complexity": "O(b^d)",
-            "weighted_edges": "Yes",
-            "difficulty": "Medium"
-        },
-        "Iterative Deepening DFS": {
-            "shortest_path": "Yes",
-            "time_complexity": "O(b^d)",
-            "space_complexity": "O(d)",
-            "weighted_edges": "No",
-            "difficulty": "Medium"
-        },
+       
+       
         "Bidirectional Search": {
             "shortest_path": "Yes‡",
             "time_complexity": "O(b^(d/2))",
@@ -142,27 +81,9 @@ def compare_algorithms(algorithms=None):
             "weighted_edges": "Yes‡",
             "difficulty": "Hard"
         },
-        "Beam Search": {
-            "shortest_path": "No",
-            "time_complexity": "O(b*w)",
-            "space_complexity": "O(w)",
-            "weighted_edges": "Yes",
-            "difficulty": "Medium"
-        },
-        "Hill Climbing": {
-            "shortest_path": "No",
-            "time_complexity": "Varies",
-            "space_complexity": "O(1)",
-            "weighted_edges": "Yes",
-            "difficulty": "Easy"
-        },
-        "IDA*": {
-            "shortest_path": "Yes†",
-            "time_complexity": "O(b^d)",
-            "space_complexity": "O(d)",
-            "weighted_edges": "Yes",
-            "difficulty": "Hard"
-        },
+       
+       
+       
         "Dijkstra's Algorithm": {
             "shortest_path": "Yes",
             "time_complexity": "O((V+E)log V)",
@@ -170,13 +91,7 @@ def compare_algorithms(algorithms=None):
             "weighted_edges": "Yes",
             "difficulty": "Medium"
         },
-        "Boggle Search": {
-            "shortest_path": "No",
-            "time_complexity": "O(8^L)",
-            "space_complexity": "O(n)",
-            "weighted_edges": "No",
-            "difficulty": "Medium"
-        }
+    
     }
     
     # Fill in the comparison data
