@@ -884,8 +884,6 @@ def get_algorithm_by_name(name):
         "DFS": dfs,
         "BFS": bfs,
         "A*": a_star,
-        "Best-First Search": best_first_search,
-        "Iterative Deepening DFS": iterative_deepening_dfs,
         "Bidirectional Search": bidirectional_search,
         "Dijkstra's Algorithm": dijkstra,
     }
